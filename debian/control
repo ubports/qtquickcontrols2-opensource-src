@@ -11,7 +11,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               pkg-kde-tools (>= 0.15.26~),
+               pkg-kde-tools,
                qml-module-qtgraphicaleffects (>= 5.9.2~),
                qml-module-qtquick-layouts (>= 5.9.2~),
                qml-module-qtquick-window2 (>= 5.9.2~),
