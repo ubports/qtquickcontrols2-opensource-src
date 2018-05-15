@@ -17,7 +17,7 @@ pipeline {
               unstash 'source'
               sh '''export architecture="armhf"
 export FORCE_BINARY_ONLY=true
-build-binary.sh'''
+ build-binary.sh'''
               stash(includes: '*.gz,*.bz2,*.xz,*.deb,*.dsc,*.changes,*.buildinfo,lintian.txt', name: 'build-armhf')
               cleanWs(cleanWhenAborted: true, cleanWhenFailure: true, cleanWhenNotBuilt: true, cleanWhenSuccess: true, cleanWhenUnstable: true, deleteDirs: true)
             }
