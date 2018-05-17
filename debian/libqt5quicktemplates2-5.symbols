@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.3 amd64
+# SymbolsHelper-Confirmed: 5.9.5 amd64 arm64 armhf i386 ppc64el s390x
 libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN10QQuickDial10setPressedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -506,6 +506,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN13QQuickOverlayD0Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN13QQuickOverlayD1Ev@Qt_5_PRIVATE_API 5.7.1
  _ZN13QQuickOverlayD2Ev@Qt_5_PRIVATE_API 5.7.1
+ _ZN13QQuickSpinBox10classBeginEv@Qt_5_PRIVATE_API 5.9.5
  _ZN13QQuickSpinBox10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QQuickSpinBox10timerEventEP11QTimerEvent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN13QQuickSpinBox10wheelEventEP11QWheelEvent@Qt_5_PRIVATE_API 5.7.1
@@ -674,6 +675,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN14QQuickGroupBox12labelChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QQuickGroupBox12titleChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QQuickGroupBox16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN14QQuickGroupBox17componentCompleteEv@Qt_5_PRIVATE_API 5.9.5
  _ZN14QQuickGroupBox26accessibilityActiveChangedEb@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN14QQuickGroupBox8setLabelEP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN14QQuickGroupBox8setTitleERK7QString@Qt_5_PRIVATE_API 5.6.0~beta
@@ -787,6 +789,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN15QQuickScrollBarC1EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickScrollBarC2EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickStackView10setPopExitEP16QQuickTransition@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN15QQuickStackView10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.5
  _ZN15QQuickStackView11busyChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickStackView11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN15QQuickStackView11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0~beta
@@ -983,6 +986,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN17QQuickRadioButton16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickRadioButtonC1EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickRadioButtonC2EP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN17QQuickRangeSlider10classBeginEv@Qt_5_PRIVATE_API 5.9.5
  _ZN17QQuickRangeSlider10touchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN17QQuickRangeSlider11fromChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN17QQuickRangeSlider11liveChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -1117,6 +1121,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN20QQuickAbstractButton16indicatorChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickAbstractButton16setAutoExclusiveEb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickAbstractButton16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN20QQuickAbstractButton17componentCompleteEv@Qt_5_PRIVATE_API 5.9.5
  _ZN20QQuickAbstractButton20autoExclusiveChangedEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickAbstractButton21mouseDoubleClickEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickAbstractButton26accessibilityActiveChangedEb@Qt_5_PRIVATE_API 5.6.0~beta
@@ -1152,13 +1157,16 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN20QQuickControlPrivate13setTopPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate14getContentItemEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickControlPrivate14setLeftPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta
- _ZN20QQuickControlPrivate15destroyDelegateEP7QObjectS1_@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickControlPrivate15setRightPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate15updateFontRecurEP10QQuickItemRK5QFont@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate16calcHoverEnabledEPK10QQuickItem@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN20QQuickControlPrivate16cancelBackgroundEv@Qt_5_PRIVATE_API 5.9.5
  _ZN20QQuickControlPrivate16resizeBackgroundEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN20QQuickControlPrivate16setBottomPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta
+ _ZN20QQuickControlPrivate17cancelContentItemEv@Qt_5_PRIVATE_API 5.9.5
+ _ZN20QQuickControlPrivate17executeBackgroundEb@Qt_5_PRIVATE_API 5.9.5
  _ZN20QQuickControlPrivate17updateLocaleRecurEP10QQuickItemRK7QLocale@Qt_5_PRIVATE_API 5.7.1
+ _ZN20QQuickControlPrivate18executeContentItemEb@Qt_5_PRIVATE_API 5.9.5
  _ZN20QQuickControlPrivate18updateHoverEnabledEbb@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickControlPrivate21setContentItem_helperEP10QQuickItemb@Qt_5_PRIVATE_API 5.9.1
  _ZN20QQuickControlPrivate23updateHoverEnabledRecurEP10QQuickItemb@Qt_5_PRIVATE_API 5.9.0~rc
@@ -1197,6 +1205,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN20QQuickTumblerPrivate20_q_updateItemHeightsEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickTumblerPrivate21_q_onViewCountChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickTumblerPrivate28_q_onViewCurrentIndexChangedEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN20QQuickTumblerPrivate33_q_calculateAttachedDisplacementsEv@Qt_5_PRIVATE_API 5.9.5
  _ZN20QQuickTumblerPrivate3getEP13QQuickTumbler@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickTumblerPrivate7setWrapEbb@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN20QQuickTumblerPrivate8lockWrapEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -1403,7 +1412,9 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN27QQuickAbstractButtonPrivate11handlePressERK7QPointF@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickAbstractButtonPrivate12handleUngrabEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickAbstractButtonPrivate13handleReleaseERK7QPointF@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN27QQuickAbstractButtonPrivate15cancelIndicatorEv@Qt_5_PRIVATE_API 5.9.5
  _ZN27QQuickAbstractButtonPrivate15stopPressRepeatEv@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN27QQuickAbstractButtonPrivate16executeIndicatorEb@Qt_5_PRIVATE_API 5.9.5
  _ZN27QQuickAbstractButtonPrivate16startPressRepeatEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickAbstractButtonPrivate16startRepeatDelayEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickAbstractButtonPrivate16stopPressAndHoldEv@Qt_5_PRIVATE_API 5.9.0~rc
@@ -1420,6 +1431,12 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZN27QQuickSwipeDelegateAttached7clickedEv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickSwipeDelegateAttachedC1EP7QObject@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN27QQuickSwipeDelegateAttachedC2EP7QObject@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZN28QQuickTumblerAttachedPrivate24_q_calculateDisplacementEv@Qt_5_PRIVATE_API 5.9.5
+ _ZN28QQuickTumblerAttachedPrivate25emitIfDisplacementChangedEdd@Qt_5_PRIVATE_API 5.9.5
+ _ZN28QQuickTumblerAttachedPrivate3getEP21QQuickTumblerAttached@Qt_5_PRIVATE_API 5.9.5
+ _ZN28QQuickTumblerAttachedPrivate4initEP10QQuickItem@Qt_5_PRIVATE_API 5.9.5
+ _ZN28QQuickTumblerAttachedPrivateC1Ev@Qt_5_PRIVATE_API 5.9.5
+ _ZN28QQuickTumblerAttachedPrivateC2Ev@Qt_5_PRIVATE_API 5.9.5
  _ZN29QQuickDialogButtonBoxAttached11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN29QQuickDialogButtonBoxAttached11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0~rc
  _ZN29QQuickDialogButtonBoxAttached13setButtonRoleEN21QPlatformDialogHelper10ButtonRoleE@Qt_5_PRIVATE_API 5.9.0~rc
@@ -1968,6 +1985,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTI25QQuickButtonGroupAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTI27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTI28QQuickTumblerAttachedPrivate@Qt_5_PRIVATE_API 5.9.5
  _ZTI29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTI29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTI31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
@@ -2041,6 +2059,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTS25QQuickButtonGroupAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTS27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTS28QQuickTumblerAttachedPrivate@Qt_5_PRIVATE_API 5.9.5
  _ZTS29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTS29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTS31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
@@ -2114,9 +2133,11 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  _ZTV25QQuickButtonGroupAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV27QQuickAbstractButtonPrivate@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV27QQuickSwipeDelegateAttached@Qt_5_PRIVATE_API 5.9.0~rc
+ _ZTV28QQuickTumblerAttachedPrivate@Qt_5_PRIVATE_API 5.9.5
  _ZTV29QQuickDialogButtonBoxAttached@Qt_5_PRIVATE_API 5.9.0~rc
  _ZTV29QQuickScrollIndicatorAttached@Qt_5_PRIVATE_API 5.6.0~beta
  _ZTV31QQuickApplicationWindowAttached@Qt_5_PRIVATE_API 5.6.0~beta
+ (c++)"non-virtual thunk to QQuickAbstractButton::componentComplete()@Qt_5_PRIVATE_API" 5.9.5
  (c++)"non-virtual thunk to QQuickAbstractButton::~QQuickAbstractButton()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickApplicationWindow::classBegin()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickApplicationWindow::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
@@ -2136,6 +2157,7 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickDial::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickDialogButtonBox::componentComplete()@Qt_5_PRIVATE_API" 5.9.0~rc
  (c++)"non-virtual thunk to QQuickDialogButtonBox::~QQuickDialogButtonBox()@Qt_5_PRIVATE_API" 5.9.0~rc
+ (c++)"non-virtual thunk to QQuickGroupBox::componentComplete()@Qt_5_PRIVATE_API" 5.9.5
  (c++)"non-virtual thunk to QQuickLabel::classBegin()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickLabel::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickMenu::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
@@ -2150,9 +2172,11 @@ libQt5QuickTemplates2.so.5 libqt5quicktemplates2-5 #MINVER#
  (c++)"non-virtual thunk to QQuickPopup::componentComplete()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickPopup::~QQuickPopup()@Qt_5_PRIVATE_API" 5.7.1
  (c++)"non-virtual thunk to QQuickProgressBar::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QQuickRangeSlider::classBegin()@Qt_5_PRIVATE_API" 5.9.5
  (c++)"non-virtual thunk to QQuickRangeSlider::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickScrollView::componentComplete()@Qt_5_PRIVATE_API" 5.9.0~rc
  (c++)"non-virtual thunk to QQuickSlider::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
+ (c++)"non-virtual thunk to QQuickSpinBox::classBegin()@Qt_5_PRIVATE_API" 5.9.5
  (c++)"non-virtual thunk to QQuickSpinBox::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickStackView::componentComplete()@Qt_5_PRIVATE_API" 5.6.0~beta
  (c++)"non-virtual thunk to QQuickStackView::~QQuickStackView()@Qt_5_PRIVATE_API" 5.6.0~beta

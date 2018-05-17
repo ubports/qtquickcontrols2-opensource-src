@@ -12,19 +12,19 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                pkg-kde-tools,
-               qml-module-qtgraphicaleffects (>= 5.9.1~),
-               qml-module-qtquick-layouts (>= 5.9.1~),
-               qml-module-qtquick-window2 (>= 5.9.1~),
-               qml-module-qttest (>= 5.9.1~),
-               qtbase5-private-dev (>= 5.9.1+dfsg~),
-               qtdeclarative5-dev-tools (>= 5.9.1~),
-               qtdeclarative5-private-dev (>= 5.9.1~),
+               qml-module-qtgraphicaleffects (>= 5.9.5~),
+               qml-module-qtquick-layouts (>= 5.9.5~),
+               qml-module-qtquick-window2 (>= 5.9.5~),
+               qml-module-qttest (>= 5.9.5~),
+               qtbase5-private-dev (>= 5.9.5+dfsg~),
+               qtdeclarative5-dev-tools (>= 5.9.5~),
+               qtdeclarative5-private-dev (>= 5.9.5~),
                xauth,
                xvfb
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1+dfsg~),
-                     qtbase5-doc-html (>= 5.6.0+dfsg~),
-                     qtdeclarative5-doc-html (>= 5.6.0~),
-                     qttools5-dev-tools (>= 5.9.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.5+dfsg~),
+                     qtbase5-doc-html,
+                     qtdeclarative5-doc-html,
+                     qttools5-dev-tools (>= 5.9.5~)
 Standards-Version: 4.1.1
 Homepage: https://code.qt.io/cgit/qt/qtquickcontrols2.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtquickcontrols2.git
